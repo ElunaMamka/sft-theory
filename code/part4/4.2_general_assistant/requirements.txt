@@ -1,0 +1,35 @@
+# 4.2 通用对话助手 - 依赖包
+
+# Core ML frameworks
+torch>=2.0.0
+transformers>=4.35.0
+peft>=0.6.0  # LoRA
+accelerate>=0.24.0  # Distributed training
+bitsandbytes>=0.41.0  # Quantization
+
+# Data processing
+datasets>=2.14.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Training utilities
+wandb>=0.15.0  # Experiment tracking (optional)
+tensorboard>=2.14.0
+tqdm>=4.66.0
+
+# Inference
+sentencepiece>=0.1.99
+protobuf>=3.20.0
+
+# Evaluation
+scikit-learn>=1.3.0
+rouge-score>=0.1.2
+nltk>=3.8.0
+
+# Code evaluation (for code generation tasks)
+black>=23.0.0  # Code formatting
+pytest>=7.4.0  # Unit testing
+
+# Data augmentation
+nlpaug>=1.1.11  # NLP augmentation
+

@@ -1,0 +1,17 @@
+# SFT原理课程 - 演示代码依赖
+
+# 基础依赖
+numpy>=1.24.0
+matplotlib>=3.7.0
+
+# 可选：用于更高级的演示
+# pandas>=2.0.0
+# transformers>=4.30.0
+# torch>=2.0.0
+# datasets>=2.12.0
+
+# 说明：
+# - numpy: 数值计算
+# - matplotlib: 数据可视化
+# - 其他库为可选，用于更高级的示例
+
